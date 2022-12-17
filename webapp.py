@@ -14,9 +14,9 @@ def breast_cancer_prediction(data_to_test):
 
     print(knn_predict)
     if (knn_predict[0] == 'M'):
-        return 'Predicted class: Malignant'
+        return 'Predicted class: Breast Cancer Type Malignant'
     else:
-        return 'Predicted class: Benign'    
+        return 'Predicted class: Breast Cancer Type Benign'    
 
 
 def main(): 
