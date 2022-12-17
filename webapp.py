@@ -4,7 +4,7 @@ import pickle
 import streamlit as st
 
 # Load the data
-loaded_model = pickle.load(open('C:/Users/Tachiii/Documents/PERMODELAN SIMULASI/lab/deploy/trained_breastcancer_model.sav', 'rb'))
+loaded_model = pickle.load(open('trained_breastcancer_model.sav', 'rb'))
 
 # create a function to predict
 
